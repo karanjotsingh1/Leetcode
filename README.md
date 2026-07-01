@@ -29,11 +29,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/karanjotsingh1/Leetcode/tree/master/0002-add-two-numbers) |
 | [0048-rotate-image](https://github.com/karanjotsingh1/Leetcode/tree/master/0048-rotate-image) |
+| [0050-powx-n](https://github.com/karanjotsingh1/Leetcode/tree/master/0050-powx-n) |
 | [2965-find-missing-and-repeated-values](https://github.com/karanjotsingh1/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 ## Recursion
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/karanjotsingh1/Leetcode/tree/master/0002-add-two-numbers) |
+| [0050-powx-n](https://github.com/karanjotsingh1/Leetcode/tree/master/0050-powx-n) |
 ## Dynamic Programming
 |  |
 | ------- |
