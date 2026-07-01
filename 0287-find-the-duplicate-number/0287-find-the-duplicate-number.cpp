@@ -23,8 +23,7 @@ public:
         {
             slow=nums[slow];
             fast=nums[nums[fast]];
-        }
-        while(slow!=fast);
+        }while(slow!=fast);
 
         int ptr1=nums[0];
         int ptr2=slow;
