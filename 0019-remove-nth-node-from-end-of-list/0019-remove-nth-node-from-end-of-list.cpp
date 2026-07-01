@@ -1,40 +1,43 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
-class Solution {
+// Approach
+// 1. Pehlaa aapaa poori linked list traverse krke total nodes count kraange.
+// 2. Hun start ton oh node labhaange jo delete hon wale node ton ik position pehlaa hove.
+// 3. Je head hi delete hona hove,
+//    ta head->next return kr devaange.
+// 4. Nahi ta previous node da next,
+//    delete hon wale node de next wal point krwa devaange.
+// 5. Last ch updated head return kr devaange.
+
+class Solution
+{
 public:
-    ListNode* removeNthFromEnd(ListNode* head, int n) {
-            
+    ListNode* removeNthFromEnd(ListNode* head,int n)
+    {
         int total_nodes=0;
         ListNode* temp=head;
+
         while(temp!=NULL)
         {
-            total_nodes+=1;
+            total_nodes++;
             temp=temp->next;
         }
-        
-        int node_to_reach=total_nodes - n - 1;
-        temp=head;
+
+        int node_to_reach=total_nodes-n-1;
 
         if(node_to_reach<0)
+        {
             return head->next;
+        }
 
-        while(node_to_reach!=0)
+        temp=head;
+
+        while(node_to_reach>0)
         {
             temp=temp->next;
             node_to_reach--;
         }
-        if(n==1)
-            temp->next=NULL;
-        else
-            temp->next=temp->next->next;
+
+        // Remove the required node
+        temp->next=temp->next->next;
 
         return head;
     }
