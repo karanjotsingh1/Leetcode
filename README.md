@@ -5,11 +5,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/0001-two-sum) |
+| [0073-set-matrix-zeroes](https://github.com/karanjotsingh1/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0118-pascals-triangle](https://github.com/karanjotsingh1/Leetcode/tree/master/0118-pascals-triangle) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/0001-two-sum) |
+| [0073-set-matrix-zeroes](https://github.com/karanjotsingh1/Leetcode/tree/master/0073-set-matrix-zeroes) |
 ## Linked List
 |  |
 | ------- |
@@ -26,4 +28,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0118-pascals-triangle](https://github.com/karanjotsingh1/Leetcode/tree/master/0118-pascals-triangle) |
+## Matrix
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/karanjotsingh1/Leetcode/tree/master/0073-set-matrix-zeroes) |
 <!---LeetCode Topics End-->
