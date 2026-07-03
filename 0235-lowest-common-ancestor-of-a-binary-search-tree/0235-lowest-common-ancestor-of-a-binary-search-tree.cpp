@@ -1,38 +1,36 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
- */
+// Approach
+// 1. BST di property use kraange.
+// 2. Je p te q dono current node ton chhote hon,
+//    ta LCA left subtree ch hovega.
+// 3. Je p te q dono current node ton vadde hon,
+//    ta LCA right subtree ch hovega.
+// 4. Je ik node left side te duja right side hove,
+//    ya current node hi p ya q hove,
+//    ta current node hi Lowest Common Ancestor hovega.
+// 5. Recursive approach di jagah iterative approach use kraange,
+//    jis naal recursion stack di extra space bach jaavegi.
 
-class Solution {
+class Solution
+{
 public:
-    TreeNode* LCA(TreeNode* root, TreeNode* p, TreeNode* q)
+    TreeNode* lowestCommonAncestor(TreeNode* root,TreeNode* p,TreeNode* q)
     {
-        if(root==NULL)
-            return NULL;
+        while(root!=NULL)
+        {
+            if(root->val>p->val&&root->val>q->val)
+            {
+                root=root->left;
+            }
+            else if(root->val<p->val&&root->val<q->val)
+            {
+                root=root->right;
+            }
+            else
+            {
+                return root;
+            }
+        }
 
-        if((root->val > p->val && root->val < q->val) || (root->val < p->val && root->val > q->val))
-            return root;
-
-        if(root->val > p->val && root->val > q->val)
-            return LCA(root->left,p,q);
-
-        if(root->val < p->val && root->val < q->val)
-            return LCA(root->right,p,q);
-
-        return root;
-        
-    }
-    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        if(root==NULL ||p==NULL || q==NULL)
-            return NULL;
-
-        return LCA(root,p,q);
-
-        
+        return NULL;
     }
 };
