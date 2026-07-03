@@ -1,30 +1,38 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
-class Solution {
-public:
-    TreeNode* searchBST(TreeNode* root, int val) {
-        if(root==NULL)
-            return NULL;
+// Approach
+// 1. Je root NULL hove ta matlab value tree ch exist nahi kardi,
+//    ta NULL return kar devaange.
+// 2. BST di property use kraange.
+// 3. Je current node di value target de equal hove,
+//    ta ohi node return kar devaange.
+// 4. Je target value current node ton chhoti hove,
+//    ta left subtree ch search kraange.
+// 5. Je target value current node ton vaddi hove,
+//    ta right subtree ch search kraange.
+// 6. Recursive calls di jagah iterative approach use kraange,
+//    jis naal recursion stack di extra space bach jaavegi.
 
-        if(root->val==val)
-            return root;
-        
-        if(val < root->val)
+class Solution
+{
+public:
+    TreeNode* searchBST(TreeNode* root,int val)
+    {
+        while(root!=NULL)
         {
-            return searchBST(root->left,val);
+            if(root->val==val)
+            {
+                return root;
+            }
+
+            if(val<root->val)
+            {
+                root=root->left;
+            }
+            else
+            {
+                root=root->right;
+            }
         }
-        else
-        {
-            return searchBST(root->right,val);
-        }
+
+        return NULL;
     }
 };
