@@ -1,47 +1,38 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
-class Solution {
-public:
+// Approach
+// 1. Tree nu DFS naal traverse kraange.
+// 2. Har node te check kraange ki (k-current value) pehla visit hoya hai ya nahi.
+// 3. Je HashSet ch mil jaave,
+//    ta do nodes da sum k de equal hai.
+// 4. Je na mile,
+//    ta current value HashSet ch store kar devaange.
+// 5. Fir left te right subtree recursively traverse kraange.
+// 6. Je poori traversal ch pair na mile,
+//    ta false return kar devaange.
 
-    void inorder(TreeNode* root,vector<int>&ans)
+class Solution
+{
+public:
+    unordered_set<int>st;
+
+    bool solve(TreeNode* root,int k)
     {
         if(root==NULL)
-            return;
-
-        inorder(root->left,ans);
-        ans.push_back(root->val);
-        inorder(root->right,ans);
-        
-        return;
-    }
-    bool findTarget(TreeNode* root, int k) {
-        if(root==NULL)
-            return false;
-
-        vector<int>ans;
-        inorder(root,ans);
-        int left=0;
-        int right=ans.size()-1;
-        while(left<right)
         {
-            if(ans[left]+ans[right] == k)
-                return true;
-            else if(ans[left]+ans[right] < k)
-                left+=1;
-            else if(ans[left]+ans[right] > k)
-                right-=1;
+            return false;
         }
-        return false;
 
+        if(st.find(k-root->val)!=st.end())
+        {
+            return true;
+        }
 
+        st.insert(root->val);
+
+        return solve(root->left,k)||solve(root->right,k);
+    }
+
+    bool findTarget(TreeNode* root,int k)
+    {
+        return solve(root,k);
     }
 };
