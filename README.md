@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/karanjotsingh1/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0540-single-element-in-a-sorted-array](https://github.com/karanjotsingh1/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/karanjotsingh1/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1019-next-greater-node-in-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/1019-next-greater-node-in-linked-list) |
 | [2965-find-missing-and-repeated-values](https://github.com/karanjotsingh1/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 ## Hash Table
 |  |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0876-middle-of-the-linked-list) |
+| [1019-next-greater-node-in-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/1019-next-greater-node-in-linked-list) |
 ## Math
 |  |
 | ------- |
@@ -149,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/karanjotsingh1/Leetcode/tree/master/0496-next-greater-element-i) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/karanjotsingh1/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1019-next-greater-node-in-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/1019-next-greater-node-in-linked-list) |
 ## Design
 |  |
 | ------- |
@@ -176,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0496-next-greater-element-i](https://github.com/karanjotsingh1/Leetcode/tree/master/0496-next-greater-element-i) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/karanjotsingh1/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1019-next-greater-node-in-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/1019-next-greater-node-in-linked-list) |
 ## Backtracking
 |  |
 | ------- |
