@@ -321,4 +321,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/karanjotsingh1/Leetcode/tree/master/0207-course-schedule) |
+## Database
+|  |
+| ------- |
+| [1075-project-employees-i](https://github.com/karanjotsingh1/Leetcode/tree/master/1075-project-employees-i) |
 <!---LeetCode Topics End-->
