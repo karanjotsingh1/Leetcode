@@ -1,44 +1,34 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
-class Solution {
+// Approach
+// 1. Har node lai ik valid range maintain kraange.
+// 2. Initially root di range (-infinity,+infinity) hovegi.
+// 3. Je current node di value range de bahar hove,
+//    ta BST valid nahi hai.
+// 4. Left child lai maximum value current node di value ban jaavegi.
+// 5. Right child lai minimum value current node di value ban jaavegi.
+// 6. Recursively left te right subtree check kraange.
+// 7. Je saare nodes apni valid range ch aa jaan,
+//    ta BST valid hai.
+
+class Solution
+{
 public:
-    void inorder(TreeNode* root, vector<int>&ans)
+    bool solve(TreeNode* root,long long low,long long high)
     {
         if(root==NULL)
-            return;
-
-        inorder(root->left,ans);
-        ans.push_back(root->val);
-        inorder(root->right,ans);
-
-        return;
-    }
-    bool isValidBST(TreeNode* root) {
-        if(root==NULL)
-            return true;
-
-
-        vector <int>ans;
-        inorder(root,ans);
-
-        for(int i=0;i<ans.size();i++)
         {
-            if(i+1<ans.size())
-            {
-                if(ans[i]>=ans[i+1])
-                    return false;
-            }
-
+            return true;
         }
-        return true;
+
+        if(root->val<=low||root->val>=high)
+        {
+            return false;
+        }
+
+        return solve(root->left,low,root->val) && solve(root->right,root->val,high);
+    }
+
+    bool isValidBST(TreeNode* root)
+    {
+        return solve(root,LLONG_MIN,LLONG_MAX);
     }
 };
