@@ -54,9 +54,7 @@ public:
             for(int i=0;i<adj[node].size();i++)
             {
                 int neigh=adj[node][i];
-
                 indegree[neigh]--;
-
                 if(indegree[neigh]==0)
                 {
                     q.push(neigh);
