@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/karanjotsingh1/Leetcode/tree/master/0242-valid-anagram) |
 | [0496-next-greater-element-i](https://github.com/karanjotsingh1/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/karanjotsingh1/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0791-custom-sort-string](https://github.com/karanjotsingh1/Leetcode/tree/master/0791-custom-sort-string) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/karanjotsingh1/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [2965-find-missing-and-repeated-values](https://github.com/karanjotsingh1/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 ## Linked List
@@ -141,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/karanjotsingh1/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/karanjotsingh1/Leetcode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/karanjotsingh1/Leetcode/tree/master/0242-valid-anagram) |
+| [0791-custom-sort-string](https://github.com/karanjotsingh1/Leetcode/tree/master/0791-custom-sort-string) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/karanjotsingh1/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1288-remove-covered-intervals](https://github.com/karanjotsingh1/Leetcode/tree/master/1288-remove-covered-intervals) |
 ## Binary Search
@@ -195,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0038-count-and-say](https://github.com/karanjotsingh1/Leetcode/tree/master/0038-count-and-say) |
 | [0151-reverse-words-in-a-string](https://github.com/karanjotsingh1/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/karanjotsingh1/Leetcode/tree/master/0242-valid-anagram) |
+| [0791-custom-sort-string](https://github.com/karanjotsingh1/Leetcode/tree/master/0791-custom-sort-string) |
 ## Monotonic Stack
 |  |
 | ------- |
