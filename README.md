@@ -358,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0176-second-highest-salary](https://github.com/karanjotsingh1/Leetcode/tree/master/0176-second-highest-salary) |
+| [0182-duplicate-emails](https://github.com/karanjotsingh1/Leetcode/tree/master/0182-duplicate-emails) |
 | [1075-project-employees-i](https://github.com/karanjotsingh1/Leetcode/tree/master/1075-project-employees-i) |
 ## Union-Find
 |  |
