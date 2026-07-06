@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/karanjotsingh1/Leetcode/tree/master/0050-powx-n) |
 | [0319-bulb-switcher](https://github.com/karanjotsingh1/Leetcode/tree/master/0319-bulb-switcher) |
 | [1025-divisor-game](https://github.com/karanjotsingh1/Leetcode/tree/master/1025-divisor-game) |
+| [2396-strictly-palindromic-number](https://github.com/karanjotsingh1/Leetcode/tree/master/2396-strictly-palindromic-number) |
 | [2965-find-missing-and-repeated-values](https://github.com/karanjotsingh1/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 ## Recursion
 |  |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/karanjotsingh1/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0876-middle-of-the-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0876-middle-of-the-linked-list) |
+| [2396-strictly-palindromic-number](https://github.com/karanjotsingh1/Leetcode/tree/master/2396-strictly-palindromic-number) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -378,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0319-bulb-switcher](https://github.com/karanjotsingh1/Leetcode/tree/master/0319-bulb-switcher) |
 | [1025-divisor-game](https://github.com/karanjotsingh1/Leetcode/tree/master/1025-divisor-game) |
+| [2396-strictly-palindromic-number](https://github.com/karanjotsingh1/Leetcode/tree/master/2396-strictly-palindromic-number) |
 ## Game Theory
 |  |
 | ------- |
