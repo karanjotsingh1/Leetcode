@@ -283,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0851-loud-and-rich](https://github.com/karanjotsingh1/Leetcode/tree/master/0851-loud-and-rich) |
 | [0886-possible-bipartition](https://github.com/karanjotsingh1/Leetcode/tree/master/0886-possible-bipartition) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/karanjotsingh1/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/karanjotsingh1/Leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Binary Tree
 |  |
 | ------- |
@@ -332,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0886-possible-bipartition](https://github.com/karanjotsingh1/Leetcode/tree/master/0886-possible-bipartition) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/karanjotsingh1/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0994-rotting-oranges](https://github.com/karanjotsingh1/Leetcode/tree/master/0994-rotting-oranges) |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/karanjotsingh1/Leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -368,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0841-keys-and-rooms](https://github.com/karanjotsingh1/Leetcode/tree/master/0841-keys-and-rooms) |
 | [0851-loud-and-rich](https://github.com/karanjotsingh1/Leetcode/tree/master/0851-loud-and-rich) |
 | [0886-possible-bipartition](https://github.com/karanjotsingh1/Leetcode/tree/master/0886-possible-bipartition) |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/karanjotsingh1/Leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/karanjotsingh1/Leetcode/tree/master/3898-find-the-degree-of-each-vertex) |
 ## Topological Sort
 |  |
@@ -387,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0785-is-graph-bipartite](https://github.com/karanjotsingh1/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0886-possible-bipartition](https://github.com/karanjotsingh1/Leetcode/tree/master/0886-possible-bipartition) |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/karanjotsingh1/Leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Shortest Path
 |  |
 | ------- |
