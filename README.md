@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/karanjotsingh1/Leetcode/tree/master/0242-valid-anagram) |
 | [0496-next-greater-element-i](https://github.com/karanjotsingh1/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/karanjotsingh1/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0676-implement-magic-dictionary](https://github.com/karanjotsingh1/Leetcode/tree/master/0676-implement-magic-dictionary) |
 | [0791-custom-sort-string](https://github.com/karanjotsingh1/Leetcode/tree/master/0791-custom-sort-string) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/karanjotsingh1/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [2965-find-missing-and-repeated-values](https://github.com/karanjotsingh1/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/karanjotsingh1/Leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0225-implement-stack-using-queues](https://github.com/karanjotsingh1/Leetcode/tree/master/0225-implement-stack-using-queues) |
+| [0676-implement-magic-dictionary](https://github.com/karanjotsingh1/Leetcode/tree/master/0676-implement-magic-dictionary) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/karanjotsingh1/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Queue
 |  |
@@ -197,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0038-count-and-say](https://github.com/karanjotsingh1/Leetcode/tree/master/0038-count-and-say) |
 | [0151-reverse-words-in-a-string](https://github.com/karanjotsingh1/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/karanjotsingh1/Leetcode/tree/master/0242-valid-anagram) |
+| [0676-implement-magic-dictionary](https://github.com/karanjotsingh1/Leetcode/tree/master/0676-implement-magic-dictionary) |
 | [0791-custom-sort-string](https://github.com/karanjotsingh1/Leetcode/tree/master/0791-custom-sort-string) |
 ## Monotonic Stack
 |  |
@@ -215,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/karanjotsingh1/Leetcode/tree/master/0014-longest-common-prefix) |
+| [0676-implement-magic-dictionary](https://github.com/karanjotsingh1/Leetcode/tree/master/0676-implement-magic-dictionary) |
 ## String Matching
 |  |
 | ------- |
@@ -269,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/karanjotsingh1/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/karanjotsingh1/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/karanjotsingh1/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0676-implement-magic-dictionary](https://github.com/karanjotsingh1/Leetcode/tree/master/0676-implement-magic-dictionary) |
 | [0785-is-graph-bipartite](https://github.com/karanjotsingh1/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/karanjotsingh1/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/karanjotsingh1/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
