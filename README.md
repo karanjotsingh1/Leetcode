@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/karanjotsingh1/Leetcode/tree/master/0169-majority-element) |
 | [0287-find-the-duplicate-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0454-4sum-ii](https://github.com/karanjotsingh1/Leetcode/tree/master/0454-4sum-ii) |
 | [0485-max-consecutive-ones](https://github.com/karanjotsingh1/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/karanjotsingh1/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0540-single-element-in-a-sorted-array](https://github.com/karanjotsingh1/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/karanjotsingh1/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/karanjotsingh1/Leetcode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/karanjotsingh1/Leetcode/tree/master/0242-valid-anagram) |
+| [0454-4sum-ii](https://github.com/karanjotsingh1/Leetcode/tree/master/0454-4sum-ii) |
 | [0496-next-greater-element-i](https://github.com/karanjotsingh1/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/karanjotsingh1/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0676-implement-magic-dictionary](https://github.com/karanjotsingh1/Leetcode/tree/master/0676-implement-magic-dictionary) |
