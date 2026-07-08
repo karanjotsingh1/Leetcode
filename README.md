@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1019-next-greater-node-in-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/1019-next-greater-node-in-linked-list) |
 | [1222-queens-that-can-attack-the-king](https://github.com/karanjotsingh1/Leetcode/tree/master/1222-queens-that-can-attack-the-king) |
 | [1288-remove-covered-intervals](https://github.com/karanjotsingh1/Leetcode/tree/master/1288-remove-covered-intervals) |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1865-finding-pairs-with-a-certain-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/1865-finding-pairs-with-a-certain-sum) |
 | [2965-find-missing-and-repeated-values](https://github.com/karanjotsingh1/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/karanjotsingh1/Leetcode/tree/master/3898-find-the-degree-of-each-vertex) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0319-bulb-switcher](https://github.com/karanjotsingh1/Leetcode/tree/master/0319-bulb-switcher) |
 | [1025-divisor-game](https://github.com/karanjotsingh1/Leetcode/tree/master/1025-divisor-game) |
 | [1227-airplane-seat-assignment-probability](https://github.com/karanjotsingh1/Leetcode/tree/master/1227-airplane-seat-assignment-probability) |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [2396-strictly-palindromic-number](https://github.com/karanjotsingh1/Leetcode/tree/master/2396-strictly-palindromic-number) |
 | [2965-find-missing-and-repeated-values](https://github.com/karanjotsingh1/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 ## Recursion
@@ -113,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/karanjotsingh1/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1025-divisor-game](https://github.com/karanjotsingh1/Leetcode/tree/master/1025-divisor-game) |
 | [1227-airplane-seat-assignment-probability](https://github.com/karanjotsingh1/Leetcode/tree/master/1227-airplane-seat-assignment-probability) |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 ## Matrix
 |  |
 | ------- |
@@ -449,4 +452,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/karanjotsingh1/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+## Prefix Sum
+|  |
+| ------- |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 <!---LeetCode Topics End-->
