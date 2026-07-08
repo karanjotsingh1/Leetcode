@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1019-next-greater-node-in-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/1019-next-greater-node-in-linked-list) |
 | [1222-queens-that-can-attack-the-king](https://github.com/karanjotsingh1/Leetcode/tree/master/1222-queens-that-can-attack-the-king) |
 | [1288-remove-covered-intervals](https://github.com/karanjotsingh1/Leetcode/tree/master/1288-remove-covered-intervals) |
+| [1865-finding-pairs-with-a-certain-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/1865-finding-pairs-with-a-certain-sum) |
 | [2965-find-missing-and-repeated-values](https://github.com/karanjotsingh1/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/karanjotsingh1/Leetcode/tree/master/3898-find-the-degree-of-each-vertex) |
 | [3974-maximum-total-sum-of-k-selected-elements](https://github.com/karanjotsingh1/Leetcode/tree/master/3974-maximum-total-sum-of-k-selected-elements) |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0676-implement-magic-dictionary](https://github.com/karanjotsingh1/Leetcode/tree/master/0676-implement-magic-dictionary) |
 | [0791-custom-sort-string](https://github.com/karanjotsingh1/Leetcode/tree/master/0791-custom-sort-string) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/karanjotsingh1/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1865-finding-pairs-with-a-certain-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/1865-finding-pairs-with-a-certain-sum) |
 | [2965-find-missing-and-repeated-values](https://github.com/karanjotsingh1/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 ## Linked List
 |  |
@@ -192,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/karanjotsingh1/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0676-implement-magic-dictionary](https://github.com/karanjotsingh1/Leetcode/tree/master/0676-implement-magic-dictionary) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/karanjotsingh1/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
+| [1865-finding-pairs-with-a-certain-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/1865-finding-pairs-with-a-certain-sum) |
 ## Queue
 |  |
 | ------- |
