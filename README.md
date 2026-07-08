@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/karanjotsingh1/Leetcode/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/karanjotsingh1/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/karanjotsingh1/Leetcode/tree/master/0035-search-insert-position) |
+| [0041-first-missing-positive](https://github.com/karanjotsingh1/Leetcode/tree/master/0041-first-missing-positive) |
 | [0046-permutations](https://github.com/karanjotsingh1/Leetcode/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/karanjotsingh1/Leetcode/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/karanjotsingh1/Leetcode/tree/master/0051-n-queens) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/karanjotsingh1/Leetcode/tree/master/0013-roman-to-integer) |
+| [0041-first-missing-positive](https://github.com/karanjotsingh1/Leetcode/tree/master/0041-first-missing-positive) |
 | [0073-set-matrix-zeroes](https://github.com/karanjotsingh1/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0141-linked-list-cycle](https://github.com/karanjotsingh1/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/karanjotsingh1/Leetcode/tree/master/0142-linked-list-cycle-ii) |
