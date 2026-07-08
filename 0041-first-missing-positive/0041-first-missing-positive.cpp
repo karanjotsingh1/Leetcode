@@ -4,18 +4,22 @@ public:
         int ii=1;
         
         int n=nums.size();
-        set<int>s;
+        sort(nums.begin(),nums.end());
 
-        for(int i=0;i<n;i++)
+        int idx=0;
+        while(idx<n && nums[idx]<=0)
+            idx++;
+        
+        for(int i=idx;i<n;i++)
         {
-            s.insert(nums[i]);
-        }
+            if(nums[i]!=ii)
+                return ii;
 
-        while(s.find(ii)!=s.end())
-        {
+            while(i+1<n && nums[i+1]==ii)
+                i++;
+
             ii++;
         }
-    
     return ii;
     }
 };
