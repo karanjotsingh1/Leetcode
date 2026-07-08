@@ -36,20 +36,16 @@ public:
     void add(int index,int val)
     {
         freq[nums2Map[index]]--;
-
         nums2Map[index]+=val;
-
         freq[nums2Map[index]]++;
     }
 
     int count(int tot)
     {
         int ans=0;
-
         for(auto it:nums1Map)
         {
             int need=tot-it.second;
-
             if(freq.find(need)!=freq.end())
             {
                 ans+=freq[need];
