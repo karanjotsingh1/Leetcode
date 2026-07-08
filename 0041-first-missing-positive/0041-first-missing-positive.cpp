@@ -8,30 +8,14 @@ public:
 
         for(int i=0;i<n;i++)
         {
-
-            while(s.find(ii)!=s.end())
-            {
-                s.erase(ii);
-                ii+=1;
-                
-            }
-            if(nums[i]==ii)
-            {
-                ii+=1;
-            }
-            else
-            {
-                s.insert(nums[i]);
-            }
-
-            
-
+            s.insert(nums[i]);
         }
+
         while(s.find(ii)!=s.end())
         {
-            ii+=1;
+            ii++;
         }
-
-        return ii;
+    
+    return ii;
     }
 };
