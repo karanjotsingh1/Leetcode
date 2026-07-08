@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/karanjotsingh1/Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/karanjotsingh1/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0268-missing-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0454-4sum-ii](https://github.com/karanjotsingh1/Leetcode/tree/master/0454-4sum-ii) |
 | [0485-max-consecutive-ones](https://github.com/karanjotsingh1/Leetcode/tree/master/0485-max-consecutive-ones) |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/karanjotsingh1/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/karanjotsingh1/Leetcode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/karanjotsingh1/Leetcode/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0268-missing-number) |
 | [0454-4sum-ii](https://github.com/karanjotsingh1/Leetcode/tree/master/0454-4sum-ii) |
 | [0496-next-greater-element-i](https://github.com/karanjotsingh1/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/karanjotsingh1/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -86,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/karanjotsingh1/Leetcode/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/karanjotsingh1/Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/karanjotsingh1/Leetcode/tree/master/0050-powx-n) |
+| [0268-missing-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0268-missing-number) |
 | [0319-bulb-switcher](https://github.com/karanjotsingh1/Leetcode/tree/master/0319-bulb-switcher) |
 | [1025-divisor-game](https://github.com/karanjotsingh1/Leetcode/tree/master/1025-divisor-game) |
 | [1227-airplane-seat-assignment-probability](https://github.com/karanjotsingh1/Leetcode/tree/master/1227-airplane-seat-assignment-probability) |
@@ -155,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/karanjotsingh1/Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/karanjotsingh1/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/karanjotsingh1/Leetcode/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0268-missing-number) |
 | [0791-custom-sort-string](https://github.com/karanjotsingh1/Leetcode/tree/master/0791-custom-sort-string) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/karanjotsingh1/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1288-remove-covered-intervals](https://github.com/karanjotsingh1/Leetcode/tree/master/1288-remove-covered-intervals) |
@@ -164,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/karanjotsingh1/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/karanjotsingh1/Leetcode/tree/master/0035-search-insert-position) |
+| [0268-missing-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0540-single-element-in-a-sorted-array](https://github.com/karanjotsingh1/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/karanjotsingh1/Leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
@@ -172,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/karanjotsingh1/Leetcode/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0136-single-number) |
+| [0268-missing-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0287-find-the-duplicate-number) |
 ## Counting
 |  |
