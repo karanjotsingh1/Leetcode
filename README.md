@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/karanjotsingh1/Leetcode/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/karanjotsingh1/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/karanjotsingh1/Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/karanjotsingh1/Leetcode/tree/master/0079-word-search) |
 | [0088-merge-sorted-array](https://github.com/karanjotsingh1/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/karanjotsingh1/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/karanjotsingh1/Leetcode/tree/master/0118-pascals-triangle) |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/karanjotsingh1/Leetcode/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/karanjotsingh1/Leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/karanjotsingh1/Leetcode/tree/master/0079-word-search) |
 | [0994-rotting-oranges](https://github.com/karanjotsingh1/Leetcode/tree/master/0994-rotting-oranges) |
 | [1222-queens-that-can-attack-the-king](https://github.com/karanjotsingh1/Leetcode/tree/master/1222-queens-that-can-attack-the-king) |
 | [2965-find-missing-and-repeated-values](https://github.com/karanjotsingh1/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
@@ -224,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/karanjotsingh1/Leetcode/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/karanjotsingh1/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/karanjotsingh1/Leetcode/tree/master/0038-count-and-say) |
+| [0079-word-search](https://github.com/karanjotsingh1/Leetcode/tree/master/0079-word-search) |
 | [0151-reverse-words-in-a-string](https://github.com/karanjotsingh1/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/karanjotsingh1/Leetcode/tree/master/0242-valid-anagram) |
 | [0676-implement-magic-dictionary](https://github.com/karanjotsingh1/Leetcode/tree/master/0676-implement-magic-dictionary) |
@@ -241,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/karanjotsingh1/Leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/karanjotsingh1/Leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/karanjotsingh1/Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/karanjotsingh1/Leetcode/tree/master/0079-word-search) |
 | [0113-path-sum-ii](https://github.com/karanjotsingh1/Leetcode/tree/master/0113-path-sum-ii) |
 | [0797-all-paths-from-source-to-target](https://github.com/karanjotsingh1/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
 ## Trie
@@ -284,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/karanjotsingh1/Leetcode/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/karanjotsingh1/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/karanjotsingh1/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/karanjotsingh1/Leetcode/tree/master/0100-same-tree) |
