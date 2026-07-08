@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/karanjotsingh1/Leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/karanjotsingh1/Leetcode/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/karanjotsingh1/Leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0078-subsets](https://github.com/karanjotsingh1/Leetcode/tree/master/0078-subsets) |
 | [0088-merge-sorted-array](https://github.com/karanjotsingh1/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/karanjotsingh1/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/karanjotsingh1/Leetcode/tree/master/0118-pascals-triangle) |
@@ -169,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/karanjotsingh1/Leetcode/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0136-single-number) |
 | [0287-find-the-duplicate-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0287-find-the-duplicate-number) |
 ## Counting
@@ -226,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0046-permutations](https://github.com/karanjotsingh1/Leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/karanjotsingh1/Leetcode/tree/master/0051-n-queens) |
+| [0078-subsets](https://github.com/karanjotsingh1/Leetcode/tree/master/0078-subsets) |
 | [0113-path-sum-ii](https://github.com/karanjotsingh1/Leetcode/tree/master/0113-path-sum-ii) |
 | [0797-all-paths-from-source-to-target](https://github.com/karanjotsingh1/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
 ## Trie
