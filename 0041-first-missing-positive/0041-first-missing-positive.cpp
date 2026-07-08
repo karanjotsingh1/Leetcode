@@ -4,20 +4,14 @@ public:
         int ii=1;
         
         int n=nums.size();
-        sort(nums.begin(),nums.end());
-
-        int idx=0;
-        while(idx<n && nums[idx]<=0)
-            idx++;
-        
-        for(int i=idx;i<n;i++)
+        set<int>s;
+        for(int i=0;i<n;i++)
         {
-            if(nums[i]!=ii)
-                return ii;
-
-            while(i+1<n && nums[i+1]==ii)
-                i++;
-
+            if(nums[i]>0)
+                s.insert(nums[i]);
+        }
+        while(s.find(ii)!=s.end())
+        {
             ii++;
         }
     return ii;
