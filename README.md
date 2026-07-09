@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/karanjotsingh1/Leetcode/tree/master/0994-rotting-oranges) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/karanjotsingh1/Leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1019-next-greater-node-in-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/1019-next-greater-node-in-linked-list) |
+| [1200-minimum-absolute-difference](https://github.com/karanjotsingh1/Leetcode/tree/master/1200-minimum-absolute-difference) |
 | [1222-queens-that-can-attack-the-king](https://github.com/karanjotsingh1/Leetcode/tree/master/1222-queens-that-can-attack-the-king) |
 | [1288-remove-covered-intervals](https://github.com/karanjotsingh1/Leetcode/tree/master/1288-remove-covered-intervals) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
@@ -174,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0268-missing-number) |
 | [0791-custom-sort-string](https://github.com/karanjotsingh1/Leetcode/tree/master/0791-custom-sort-string) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/karanjotsingh1/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1200-minimum-absolute-difference](https://github.com/karanjotsingh1/Leetcode/tree/master/1200-minimum-absolute-difference) |
 | [1288-remove-covered-intervals](https://github.com/karanjotsingh1/Leetcode/tree/master/1288-remove-covered-intervals) |
 | [3974-maximum-total-sum-of-k-selected-elements](https://github.com/karanjotsingh1/Leetcode/tree/master/3974-maximum-total-sum-of-k-selected-elements) |
 ## Binary Search
