@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1222-queens-that-can-attack-the-king](https://github.com/karanjotsingh1/Leetcode/tree/master/1222-queens-that-can-attack-the-king) |
 | [1288-remove-covered-intervals](https://github.com/karanjotsingh1/Leetcode/tree/master/1288-remove-covered-intervals) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
+| [1833-maximum-ice-cream-bars](https://github.com/karanjotsingh1/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [1865-finding-pairs-with-a-certain-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/1865-finding-pairs-with-a-certain-sum) |
 | [2965-find-missing-and-repeated-values](https://github.com/karanjotsingh1/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/karanjotsingh1/Leetcode/tree/master/3898-find-the-degree-of-each-vertex) |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/karanjotsingh1/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1200-minimum-absolute-difference](https://github.com/karanjotsingh1/Leetcode/tree/master/1200-minimum-absolute-difference) |
 | [1288-remove-covered-intervals](https://github.com/karanjotsingh1/Leetcode/tree/master/1288-remove-covered-intervals) |
+| [1833-maximum-ice-cream-bars](https://github.com/karanjotsingh1/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [3974-maximum-total-sum-of-k-selected-elements](https://github.com/karanjotsingh1/Leetcode/tree/master/3974-maximum-total-sum-of-k-selected-elements) |
 ## Binary Search
 |  |
@@ -472,6 +474,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1013-partition-array-into-three-parts-with-equal-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/1013-partition-array-into-three-parts-with-equal-sum) |
+| [1833-maximum-ice-cream-bars](https://github.com/karanjotsingh1/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [3974-maximum-total-sum-of-k-selected-elements](https://github.com/karanjotsingh1/Leetcode/tree/master/3974-maximum-total-sum-of-k-selected-elements) |
 ## Quickselect
 |  |
@@ -485,4 +488,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0148-sort-list) |
+## Counting Sort
+|  |
+| ------- |
+| [1833-maximum-ice-cream-bars](https://github.com/karanjotsingh1/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 <!---LeetCode Topics End-->
