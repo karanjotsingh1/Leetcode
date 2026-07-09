@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-partition-array-into-three-parts-with-equal-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/1013-partition-array-into-three-parts-with-equal-sum) |
 | [1019-next-greater-node-in-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/1019-next-greater-node-in-linked-list) |
 | [1200-minimum-absolute-difference](https://github.com/karanjotsingh1/Leetcode/tree/master/1200-minimum-absolute-difference) |
+| [1207-unique-number-of-occurrences](https://github.com/karanjotsingh1/Leetcode/tree/master/1207-unique-number-of-occurrences) |
 | [1222-queens-that-can-attack-the-king](https://github.com/karanjotsingh1/Leetcode/tree/master/1222-queens-that-can-attack-the-king) |
 | [1288-remove-covered-intervals](https://github.com/karanjotsingh1/Leetcode/tree/master/1288-remove-covered-intervals) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0677-map-sum-pairs](https://github.com/karanjotsingh1/Leetcode/tree/master/0677-map-sum-pairs) |
 | [0791-custom-sort-string](https://github.com/karanjotsingh1/Leetcode/tree/master/0791-custom-sort-string) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/karanjotsingh1/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1207-unique-number-of-occurrences](https://github.com/karanjotsingh1/Leetcode/tree/master/1207-unique-number-of-occurrences) |
 | [1865-finding-pairs-with-a-certain-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/1865-finding-pairs-with-a-certain-sum) |
 | [2965-find-missing-and-repeated-values](https://github.com/karanjotsingh1/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 ## Linked List
