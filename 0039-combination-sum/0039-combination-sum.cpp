@@ -1,43 +1,58 @@
-class Solution {
+// Approach
+// 1. Har candidate lai do choices hundiyaan ne.
+//    (a) Current candidate nu include karaange.
+//    (b) Current candidate nu skip karke next candidate te move karaange.
+// 2. Je target 0 ho jaave,
+//    matlab ik valid combination mil gayi.
+//    Current combination nu answer ch store karaange.
+// 3. Je target negative ho jaave,
+//    ya saare candidates traverse ho jaan,
+//    ta recursion stop kar devaange.
+// 4. Include waali recursive call ch
+//    same index use hovega,
+//    kyunki ik candidate unlimited times use ho sakda hai.
+// 5. Recursive call to baad current candidate remove karaange
+//    (Backtracking).
+// 6. Fir current candidate nu skip karke
+//    next index ton recursion call karaange.
+// 7. Is tarah saare possible valid combinations generate ho jaan ge.
+
+class Solution
+{
 public:
-    void combinations(vector<int>& candidates, int target,int &n,vector<int>&combo,vector<vector<int>>&ans,int idx,set<vector<int>>&s)
-    {   
-        if(idx>=n)
-            return;
-
-        if(target<candidates[idx])
-            return;
-
-        if(target==candidates[idx])
+    void combinations(vector<int>& candidates,int target,int n,vector<int>& combo,vector<vector<int>>& ans,int idx)
+    {
+        // Valid combination found
+        if(target==0)
         {
-            combo.push_back(candidates[idx]);
-            if(s.find(combo)==s.end())
-            {
-                ans.push_back(combo);
-                s.insert(combo);
-            }
-            combo.pop_back();
+            ans.push_back(combo);
             return;
         }
 
+        // Invalid case
+        if(idx>=n || target<0)
+        {
+            return;
+        }
+
+        // Include current candidate
         combo.push_back(candidates[idx]);
-        combinations(candidates,target-candidates[idx],n,combo,ans,idx,s);
+
+        combinations(candidates,target-candidates[idx],n,combo,ans,idx);
+
+        // Backtrack
         combo.pop_back();
 
-        combinations(candidates,target,n,combo,ans,idx+1,s);
+        // Exclude current candidate
+        combinations(candidates,target,n,combo,ans,idx+1);
     }
-    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        int n=candidates.size();
 
-        sort(candidates.begin(),candidates.end());
+    vector<vector<int>> combinationSum(vector<int>& candidates,int target)
+    {
+        vector<vector<int>> ans;
+        vector<int> combo;
 
-        set<vector<int>>s;
-
-        vector<vector<int>>ans;
-        vector<int>combo;
-
-        int idx=0;
-        combinations(candidates,target,n,combo,ans,idx,s);
+        combinations(candidates,target,candidates.size(),combo,ans,0);
 
         return ans;
     }
