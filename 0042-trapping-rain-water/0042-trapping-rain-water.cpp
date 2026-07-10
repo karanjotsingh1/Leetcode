@@ -1,12 +1,24 @@
 // Approach
-// 1. Har index lai left side da maximum height calculate karaange.
-// 2. Har index lai right side da maximum height calculate karaange.
-// 3. Har index te water level
-//    min(leftMax,rightMax) hovega.
-// 4. Je water level current height ton vadda hove,
-//    ta difference answer ch add karaange.
-// 5. Saare indices traverse karan to baad
-//    total trapped water return karaange.
+// 1. Do pointers use karaange:
+//    left starting te,
+//    right ending te.
+// 2. Do variables maintain karaange:
+//    leftMax te rightMax.
+// 3. Je left height right height ton chhoti ya equal hove,
+//    ta left side process karaange.
+// 4. Je current left height leftMax ton vaddi hove,
+//    ta leftMax update karaange.
+//    Nahi ta leftMax-height[left]
+//    answer ch add karaange.
+// 5. Je right height chhoti hove,
+//    ta right side process karaange.
+// 6. Je current right height rightMax ton vaddi hove,
+//    ta rightMax update karaange.
+//    Nahi ta rightMax-height[right]
+//    answer ch add karaange.
+// 7. Jadon left pointer right pointer nu cross kar jaave,
+//    traversal complete ho jaavegi.
+// 8. Total trapped water return karaange.
 
 class Solution
 {
@@ -15,33 +27,42 @@ public:
     {
         int n=height.size();
 
-        if(n==0)
-        {
-            return 0;
-        }
+        int left=0;
+        int right=n-1;
 
-        vector<int>leftMax(n);
-        vector<int>rightMax(n);
-
-        leftMax[0]=height[0];
-
-        for(int i=1;i<n;i++)
-        {
-            leftMax[i]=max(leftMax[i-1],height[i]);
-        }
-
-        rightMax[n-1]=height[n-1];
-
-        for(int i=n-2;i>=0;i--)
-        {
-            rightMax[i]=max(rightMax[i+1],height[i]);
-        }
+        int leftMax=0;
+        int rightMax=0;
 
         int ans=0;
 
-        for(int i=0;i<n;i++)
+        while(left<right)
         {
-            ans+=min(leftMax[i],rightMax[i])-height[i];
+            if(height[left]<=height[right])
+            {
+                if(height[left]>=leftMax)
+                {
+                    leftMax=height[left];
+                }
+                else
+                {
+                    ans+=leftMax-height[left];
+                }
+
+                left++;
+            }
+            else
+            {
+                if(height[right]>=rightMax)
+                {
+                    rightMax=height[right];
+                }
+                else
+                {
+                    ans+=rightMax-height[right];
+                }
+
+                right--;
+            }
         }
 
         return ans;
