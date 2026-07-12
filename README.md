@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/karanjotsingh1/Leetcode/tree/master/0011-container-with-most-water) |
 | [0014-longest-common-prefix](https://github.com/karanjotsingh1/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/karanjotsingh1/Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/karanjotsingh1/Leetcode/tree/master/0018-4sum) |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/karanjotsingh1/Leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0011-container-with-most-water](https://github.com/karanjotsingh1/Leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/karanjotsingh1/Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/karanjotsingh1/Leetcode/tree/master/0018-4sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
@@ -486,6 +488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/karanjotsingh1/Leetcode/tree/master/0011-container-with-most-water) |
 | [1013-partition-array-into-three-parts-with-equal-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/1013-partition-array-into-three-parts-with-equal-sum) |
 | [1833-maximum-ice-cream-bars](https://github.com/karanjotsingh1/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [3974-maximum-total-sum-of-k-selected-elements](https://github.com/karanjotsingh1/Leetcode/tree/master/3974-maximum-total-sum-of-k-selected-elements) |
