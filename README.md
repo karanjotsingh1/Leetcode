@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/karanjotsingh1/Leetcode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/karanjotsingh1/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0268-missing-number) |
+| [0283-move-zeroes](https://github.com/karanjotsingh1/Leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0454-4sum-ii](https://github.com/karanjotsingh1/Leetcode/tree/master/0454-4sum-ii) |
 | [0485-max-consecutive-ones](https://github.com/karanjotsingh1/Leetcode/tree/master/0485-max-consecutive-ones) |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/karanjotsingh1/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/karanjotsingh1/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [0283-move-zeroes](https://github.com/karanjotsingh1/Leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/karanjotsingh1/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0876-middle-of-the-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0876-middle-of-the-linked-list) |
