@@ -1,34 +1,24 @@
-// Approach
-// 1. Pehlaa aapaa ik variable(currSum) rakhange jo current subarray da sum store kru ga.
-// 2. Ik hor variable(maxSum) rakhange jo hun takk da maximum sum store kru ga.
-// 3. Hun array nu left to right traverse kraange.
-// 4. Har element nu currSum ch add kraange te check kraange ki maxSum update hunda aa ja nahi.
-// 5. Je currSum negative ho jaave, ta usnu 0 kr devaange,
-//    kyunki negative sum future subarray nu sirf chhota hi karega.
-// 6. Last ch maxSum hi maximum subarray sum houga.
-
-class Solution
-{
+class Solution {
 public:
-    int maxSubArray(vector<int>& nums)
-    {
-        int currSum=0;
-        int maxSum=nums[0];
+    int maxSubArray(vector<int>& nums) {
+        int n=nums.size();
 
-        for(int i=0;i<nums.size();i++)
+        if(n==1)
+            return nums[0];
+
+        int max_sum=INT_MIN;
+
+        int curr_sum=0;
+        for(int i=0;i<n;i++)
         {
-            currSum+=nums[i];
+            curr_sum+=nums[i];
+            max_sum=max(max_sum,curr_sum);
 
-            // Update maximum sum found so far
-            maxSum=max(maxSum,currSum);
-
-            // Start a new subarray if current sum becomes negative
-            if(currSum<0)
+            if(curr_sum<0)
             {
-                currSum=0;
+                curr_sum=0;
             }
         }
-
-        return maxSum;
+        return max_sum;
     }
 };
