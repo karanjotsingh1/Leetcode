@@ -1,41 +1,41 @@
-class Solution {
+// Approach
+// 1. Map use karaange,
+//    taaki saare unique elements automatically sorted order ch aa jaan.
+// 2. Har unique element nu initially map ch insert karaange.
+// 3. Smallest element ton starting karke
+//    har unique element nu increasing rank assign karaange.
+// 4. Original array traverse karaange.
+// 5. Har element nu usdi corresponding rank naal replace karaange.
+// 6. Modified array return karaange.
+
+class Solution
+{
 public:
-    vector<int> arrayRankTransform(vector<int>& arr) {
-        int n=arr.size();
-        vector<int>ans(n,-1);
+    vector<int> arrayRankTransform(vector<int>& arr)
+    {
+        map<int,int> mp;
 
-        
-        if(n==0)
-            return {};
-
-        if(n==1)
+        // Store unique elements
+        for(int i=0;i<arr.size();i++)
         {
-            ans[0]=1;
-            return ans;
+            mp[arr[i]]=1;
         }
 
-        map<int,int>m;
-
-        vector<int>arr_dummy=arr;
-        sort(arr_dummy.begin(),arr_dummy.end());
-
+        // Assign ranks
         int rank=1;
-        for(int i=0;i<n;i++)
+
+        for(auto it:mp)
         {
-            if(m.find(arr_dummy[i])==m.end())
-            {
-                m[arr_dummy[i]]=rank;
-                rank+=1;
-            }
+            mp[it.first]=rank;
+            rank++;
         }
 
-        for(int i=0;i<n;i++)
+        // Replace elements with their ranks
+        for(int i=0;i<arr.size();i++)
         {
-            ans[i]=m[arr[i]];
+            arr[i]=mp[arr[i]];
         }
 
-        return ans;
-
-        
+        return arr;
     }
 };
