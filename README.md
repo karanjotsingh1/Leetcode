@@ -347,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/karanjotsingh1/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/karanjotsingh1/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0676-implement-magic-dictionary](https://github.com/karanjotsingh1/Leetcode/tree/master/0676-implement-magic-dictionary) |
+| [0684-redundant-connection](https://github.com/karanjotsingh1/Leetcode/tree/master/0684-redundant-connection) |
 | [0785-is-graph-bipartite](https://github.com/karanjotsingh1/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/karanjotsingh1/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/karanjotsingh1/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
@@ -397,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/karanjotsingh1/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/karanjotsingh1/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/karanjotsingh1/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0684-redundant-connection](https://github.com/karanjotsingh1/Leetcode/tree/master/0684-redundant-connection) |
 | [0785-is-graph-bipartite](https://github.com/karanjotsingh1/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/karanjotsingh1/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/karanjotsingh1/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
@@ -436,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/karanjotsingh1/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/karanjotsingh1/Leetcode/tree/master/0210-course-schedule-ii) |
+| [0684-redundant-connection](https://github.com/karanjotsingh1/Leetcode/tree/master/0684-redundant-connection) |
 | [0785-is-graph-bipartite](https://github.com/karanjotsingh1/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/karanjotsingh1/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/karanjotsingh1/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
@@ -467,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0684-redundant-connection](https://github.com/karanjotsingh1/Leetcode/tree/master/0684-redundant-connection) |
 | [0785-is-graph-bipartite](https://github.com/karanjotsingh1/Leetcode/tree/master/0785-is-graph-bipartite) |
 | [0886-possible-bipartition](https://github.com/karanjotsingh1/Leetcode/tree/master/0886-possible-bipartition) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/karanjotsingh1/Leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
