@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/karanjotsingh1/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/karanjotsingh1/Leetcode/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/karanjotsingh1/Leetcode/tree/master/0048-rotate-image) |
+| [0049-group-anagrams](https://github.com/karanjotsingh1/Leetcode/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/karanjotsingh1/Leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/karanjotsingh1/Leetcode/tree/master/0053-maximum-subarray) |
 | [0066-plus-one](https://github.com/karanjotsingh1/Leetcode/tree/master/0066-plus-one) |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0036-valid-sudoku](https://github.com/karanjotsingh1/Leetcode/tree/master/0036-valid-sudoku) |
 | [0041-first-missing-positive](https://github.com/karanjotsingh1/Leetcode/tree/master/0041-first-missing-positive) |
+| [0049-group-anagrams](https://github.com/karanjotsingh1/Leetcode/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/karanjotsingh1/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0141-linked-list-cycle](https://github.com/karanjotsingh1/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/karanjotsingh1/Leetcode/tree/master/0142-linked-list-cycle-ii) |
@@ -206,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/karanjotsingh1/Leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/karanjotsingh1/Leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/karanjotsingh1/Leetcode/tree/master/0018-4sum) |
+| [0049-group-anagrams](https://github.com/karanjotsingh1/Leetcode/tree/master/0049-group-anagrams) |
 | [0088-merge-sorted-array](https://github.com/karanjotsingh1/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/karanjotsingh1/Leetcode/tree/master/0169-majority-element) |
@@ -285,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/karanjotsingh1/Leetcode/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/karanjotsingh1/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/karanjotsingh1/Leetcode/tree/master/0038-count-and-say) |
+| [0049-group-anagrams](https://github.com/karanjotsingh1/Leetcode/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/karanjotsingh1/Leetcode/tree/master/0079-word-search) |
 | [0151-reverse-words-in-a-string](https://github.com/karanjotsingh1/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/karanjotsingh1/Leetcode/tree/master/0242-valid-anagram) |
