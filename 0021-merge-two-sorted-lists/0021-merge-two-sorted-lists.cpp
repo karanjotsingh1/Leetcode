@@ -1,66 +1,59 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
-class Solution {
+// Approach
+// 1. Ik dummy node banaavaange,
+//    jo merged list da starting point hovega.
+// 2. Ik pointer (temp) maintain karaange,
+//    jo merged list da last node represent karega.
+// 3. Dono linked lists nu simultaneously traverse karaange.
+// 4. Je list1 da current node chhota ya equal hove,
+//    ta us node nu merged list ch attach karaange
+//    te list1 nu agge move karaange.
+// 5. Nahi ta list2 da current node attach karaange
+//    te list2 nu agge move karaange.
+// 6. Har attachment ton baad
+//    temp nu agge move karaange.
+// 7. Jadon kise ik list de nodes khatam ho jaan,
+//    ta doosri list de saare remaining nodes
+//    directly merged list ch attach kar devaange.
+// 8. Dummy node de next nu return karaange,
+//    jo merged sorted list da head hovega.
+
+class Solution
+{
 public:
-    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
+    ListNode* mergeTwoLists(ListNode* list1,ListNode* list2)
+    {
         ListNode* head=new ListNode(-1);
 
         ListNode* temp=head;
-        ListNode* temp1=list1;
-        ListNode* temp2=list2;
 
-        while(temp1!=NULL && temp2!=NULL)
+        while(list1!=NULL && list2!=NULL)
         {
-            if(temp1->val == temp2->val)
+            if(list1->val<=list2->val)
             {
-                ListNode* new_node1=new ListNode(temp1->val);
-                ListNode* new_node2=new ListNode(temp2->val);
+                temp->next=list1;
 
-                temp->next=new_node1;
-                temp=temp->next;
-
-                temp->next=new_node2;
-                temp=temp->next;
-
-                temp1=temp1->next;
-                temp2=temp2->next;
-            }
-            else if(temp1->val < temp2->val)
-            {
-                ListNode* new_node1=new ListNode(temp1->val);
-                temp->next=new_node1;
-                temp=temp->next;
-
-                temp1=temp1->next;
+                list1=list1->next;
             }
             else
             {
-                ListNode* new_node2=new ListNode(temp2->val);
-                temp->next=new_node2;
-                temp=temp->next;
+                temp->next=list2;
 
-                temp2=temp2->next;
+                list2=list2->next;
             }
+
+            temp=temp->next;
         }
 
-        if(temp1!=NULL)
+        if(list1!=NULL)
         {
-            temp->next=temp1;
+            temp->next=list1;
         }
-        if(temp2!=NULL)
+
+        if(list2!=NULL)
         {
-            temp->next=temp2;
+            temp->next=list2;
         }
 
         return head->next;
-
     }
 };
