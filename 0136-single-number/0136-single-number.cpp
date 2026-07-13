@@ -1,25 +1,15 @@
-// Approach
-// 1. XOR operation di property use kraange.
-// 2. Same numbers da XOR hamesha 0 hunda hai.
-// 3. 0 da kise vi number naal XOR ohi number hunda hai.
-// 4. Saare elements da XOR karde jaavaange.
-// 5. Jehde numbers do vaar aunde ne,
-//    oh ik duje nu cancel kar denge.
-// 6. Aakhir ch sirf single number hi bachuga,
-//    ohi answer hovega.
-
-class Solution
-{
+class Solution {
 public:
-    int singleNumber(vector<int>& nums)
-    {
-        int ans=0;
+    int singleNumber(vector<int>& nums) {
+        int n=nums.size();
+        if(n==1)
+            return nums[0];
 
-        for(int i=0;i<nums.size();i++)
+        int x_o_r=nums[0];
+        for(int i=1;i<n;i++)
         {
-            ans=ans^nums[i];
+            x_o_r=x_o_r ^ nums[i];
         }
-
-        return ans;
+        return x_o_r;
     }
 };
