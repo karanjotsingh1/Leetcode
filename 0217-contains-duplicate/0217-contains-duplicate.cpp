@@ -1,23 +1,20 @@
-class Solution {
+class Solution
+{
 public:
-    bool containsDuplicate(vector<int>& nums) {
-        int n=nums.size();
+    bool containsDuplicate(vector<int>& nums)
+    {
+        unordered_set<int> st;
 
-        if(n==1)
-            return false;
-
-        map<int,int>m;
-        for(int i=0;i<n;i++)
+        for(int x:nums)
         {
-            m[nums[i]]+=1;
-        }
-
-        for(int i=0;i<n;i++)
-        {
-            if(m[nums[i]]>=2)
+            if(st.find(x)!=st.end())
+            {
                 return true;
+            }
+
+            st.insert(x);
         }
+
         return false;
-        
     }
 };
