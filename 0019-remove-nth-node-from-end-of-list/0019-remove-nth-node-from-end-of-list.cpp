@@ -1,47 +1,48 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
-class Solution {
+// Approach
+// 1. Ik dummy node banaavaange,
+//    jo head ton pehla point karega.
+// 2. Do pointers (slow te fast)
+//    dummy node ton start karaange.
+// 3. Fast pointer nu n+1 steps agge move karaange.
+// 4. Hun slow te fast nu
+//    ik ik step move karaange.
+// 5. Jadon fast NULL ho jaave,
+//    slow remove hon wale node ton
+//    ik node pehla hovega.
+// 6. Slow da next pointer
+//    next node wal point kara devaange,
+//    jis naal nth node from end remove ho jaavegi.
+// 7. Dummy da next hi
+//    updated linked list da head hovega.
+
+class Solution
+{
 public:
-    ListNode* removeNthFromEnd(ListNode* head, int n) {
-        int count=0;
-        ListNode* temp=head;
+    ListNode* removeNthFromEnd(ListNode* head,int n)
+    {
+        ListNode* dummy=new ListNode(-1);
 
-        while(temp)
+        dummy->next=head;
+
+        ListNode* slow=dummy;
+        ListNode* fast=dummy;
+
+        // Move fast n+1 steps ahead
+        for(int i=0;i<=n;i++)
         {
-            count+=1;
-            temp=temp->next;
+            fast=fast->next;
         }
 
-        if(n==count)
-            return head->next;
-
-        int move_forward=count-n-1;
-
-        temp=head;
-        while(move_forward)
+        // Move both pointers
+        while(fast!=NULL)
         {
-            temp=temp->next;
-            move_forward--;
+            slow=slow->next;
+            fast=fast->next;
         }
 
-        if(n==1)
-        {
-            temp->next=NULL;
-            return head;
-        }
-        else
-        {
-            temp->next=temp->next->next;
-            return head;
-        }
-        
+        // Remove nth node
+        slow->next=slow->next->next;
+
+        return dummy->next;
     }
 };
