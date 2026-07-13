@@ -1,24 +1,23 @@
-class Solution {
+class Solution
+{
 public:
-    bool containsNearbyDuplicate(vector<int>& nums, int k) {
-        unordered_map<int,int>m;
-        unordered_set<int>s;
+    bool containsNearbyDuplicate(vector<int>& nums,int k)
+    {
+        unordered_map<int,int> m;
 
-        int n=nums.size();
-        if(n==1)
-            return false;
-
-        for(int i=0;i<n;i++)
+        for(int i=0;i<nums.size();i++)
         {
-            if(s.find(nums[i])!=s.end())
+            if(m.find(nums[i])!=m.end())
             {
-                int diff=i-m[nums[i]];
-                if(diff<=k)
+                if(i-m[nums[i]]<=k)
+                {
                     return true;
+                }
             }
-            s.insert(nums[i]);
+
             m[nums[i]]=i;
         }
+
         return false;
     }
 };
