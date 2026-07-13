@@ -1,40 +1,43 @@
 // Approach
-// 1. Pehlaa check kraange je list empty aa ya sirf ik node aa,
-//    ta sidha head return kr devaange.
-// 2. Hun tinn pointers rakhange:
-//    prev -> previous node
-//    temp -> current node
-//    next_node -> next node da address store krn lai.
-// 3. Har iteration ch pehlaa next node save kraange,
-//    kyunki next pointer change hon to baad list da agla hissa lose ho sakda aa.
-// 4. Hun current node da next pointer reverse krke prev wal point kraange.
-// 5. Fer prev te temp nu ik step agge move kraange.
-// 6. Jadon temp NULL ho jaave,
-//    prev hi navi reversed list da head houga.
-// 7. Last ch prev return kr devaange.
+// 1. Tin pointers use karaange:
+//    prev, temp te next_node.
+// 2. Prev nu NULL initialize karaange,
+//    kyunki reversed list da last node
+//    NULL nu point karega.
+// 3. Temp head ton traversal start karega.
+// 4. Current node de next pointer nu
+//    temporary variable (next_node) ch store karaange.
+// 5. Current node da next
+//    previous node wal point kara devaange.
+// 6. Prev nu current node te move karaange.
+// 7. Temp nu next_node te move karaange.
+// 8. Eh process jadon tak
+//    temp NULL na ho jaave,
+//    repeat karaange.
+// 9. Traversal complete hon to baad
+//    prev hi reversed linked list da new head hovega.
 
 class Solution
 {
 public:
     ListNode* reverseList(ListNode* head)
     {
-        if(head==NULL||head->next==NULL)
+        if(head==NULL || head->next==NULL)
         {
             return head;
         }
 
-        ListNode* prev=NULL;
         ListNode* temp=head;
+        ListNode* prev=NULL;
 
         while(temp!=NULL)
         {
-            // Store the next node before breaking the link
             ListNode* next_node=temp->next;
 
-            // Reverse the current link
             temp->next=prev;
 
             prev=temp;
+
             temp=next_node;
         }
 
