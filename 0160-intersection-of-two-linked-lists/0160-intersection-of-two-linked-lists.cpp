@@ -1,70 +1,62 @@
-// Approach
-// 1. Pehlaa aapaa dono linked lists di length calculate kraange.
-// 2. Hun jis list di length vaddi hougi,
-//    usde pointer nu length difference de barabar agge move kraange.
-// 3. Is naal dove pointers end ton equal distance te aa jaan ge.
-// 4. Hun dove pointers nu ik ik step move kraange.
-// 5. Jadon dono pointers same node nu point krange,
-//    ohi intersection node hougi.
-// 6. Je end takk vi same node na mile,
-//    ta NULL return kr devaange.
-
-class Solution
-{
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
 public:
-    ListNode* getIntersectionNode(ListNode* headA,ListNode* headB)
-    {
-        int len_a=0;
-        int len_b=0;
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        int count1=0;
+        int count2=0;
 
         ListNode* temp1=headA;
-        ListNode* temp2=headB;
-
         while(temp1!=NULL)
         {
-            len_a++;
+            count1+=1;
             temp1=temp1->next;
         }
-
+        ListNode* temp2=headB;
         while(temp2!=NULL)
         {
-            len_b++;
+            count2+=1;
             temp2=temp2->next;
         }
 
         temp1=headA;
         temp2=headB;
 
-        int diff=abs(len_a-len_b);
-
-        // Move the pointer of the longer list
-        if(len_a>len_b)
+        if(count1>count2)
         {
-            while(diff--)
+            int diff=count1-count2;
+            while(diff)
             {
                 temp1=temp1->next;
+                diff-=1;
             }
         }
-        else
+        else if(count1<count2)
         {
-            while(diff--)
+            int diff=count2-count1;
+            while(diff)
             {
                 temp2=temp2->next;
+                diff-=1;
             }
         }
 
-        // Traverse both lists together
-        while(temp1!=NULL&&temp2!=NULL)
+        while(temp1!=NULL && temp2!=NULL)
         {
             if(temp1==temp2)
             {
                 return temp1;
             }
-
             temp1=temp1->next;
             temp2=temp2->next;
         }
-
         return NULL;
+
     }
 };
