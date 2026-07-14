@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0328-odd-even-linked-list) |
+| [0382-linked-list-random-node](https://github.com/karanjotsingh1/Leetcode/tree/master/0382-linked-list-random-node) |
 | [0445-add-two-numbers-ii](https://github.com/karanjotsingh1/Leetcode/tree/master/0445-add-two-numbers-ii) |
 | [0707-design-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0707-design-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0876-middle-of-the-linked-list) |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/karanjotsingh1/Leetcode/tree/master/0066-plus-one) |
 | [0268-missing-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0268-missing-number) |
 | [0319-bulb-switcher](https://github.com/karanjotsingh1/Leetcode/tree/master/0319-bulb-switcher) |
+| [0382-linked-list-random-node](https://github.com/karanjotsingh1/Leetcode/tree/master/0382-linked-list-random-node) |
 | [0445-add-two-numbers-ii](https://github.com/karanjotsingh1/Leetcode/tree/master/0445-add-two-numbers-ii) |
 | [1025-divisor-game](https://github.com/karanjotsingh1/Leetcode/tree/master/1025-divisor-game) |
 | [1227-airplane-seat-assignment-probability](https://github.com/karanjotsingh1/Leetcode/tree/master/1227-airplane-seat-assignment-probability) |
@@ -619,4 +621,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/karanjotsingh1/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/karanjotsingh1/Leetcode/tree/master/0219-contains-duplicate-ii) |
+## Reservoir Sampling
+|  |
+| ------- |
+| [0382-linked-list-random-node](https://github.com/karanjotsingh1/Leetcode/tree/master/0382-linked-list-random-node) |
+## Randomized
+|  |
+| ------- |
+| [0382-linked-list-random-node](https://github.com/karanjotsingh1/Leetcode/tree/master/0382-linked-list-random-node) |
 <!---LeetCode Topics End-->
