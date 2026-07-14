@@ -38,8 +38,8 @@ public:
             temp=temp->next;
         }
 
-        // if(last->next)
-            temp1->next=last->next;
+
+        temp1->next=last->next;
 
         return first->next;
 
