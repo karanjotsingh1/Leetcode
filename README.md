@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1019-next-greater-node-in-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/1019-next-greater-node-in-linked-list) |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/karanjotsingh1/Leetcode/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
 | [1367-linked-list-in-binary-tree](https://github.com/karanjotsingh1/Leetcode/tree/master/1367-linked-list-in-binary-tree) |
+| [1721-swapping-nodes-in-a-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/1721-swapping-nodes-in-a-linked-list) |
 ## Math
 |  |
 | ------- |
@@ -222,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/karanjotsingh1/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0876-middle-of-the-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0876-middle-of-the-linked-list) |
+| [1721-swapping-nodes-in-a-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/1721-swapping-nodes-in-a-linked-list) |
 | [2396-strictly-palindromic-number](https://github.com/karanjotsingh1/Leetcode/tree/master/2396-strictly-palindromic-number) |
 ## Divide and Conquer
 |  |
