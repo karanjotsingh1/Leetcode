@@ -42,7 +42,7 @@ public:
 
         while(temp!=NULL)
         {
-            while(st.empty()==false&&st.top().first<temp->val)
+            while(st.empty()==false && st.top().first<temp->val)
             {
                 ans[st.top().second]=temp->val;
 
