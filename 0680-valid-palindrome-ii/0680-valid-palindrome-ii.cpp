@@ -1,40 +1,62 @@
-class Solution {
+// Approach
+// 1. Do pointers (left te right)
+//    string de dono ends ton start karaange.
+// 2. Jadon tak characters equal hon,
+//    dono pointers nu center wal move karaange.
+// 3. Je kise position te mismatch mile,
+//    ta do possibilities check karaange:
+//    (a) Left character remove karke
+//        remaining string palindrome hai ya nahi.
+//    (b) Right character remove karke
+//        remaining string palindrome hai ya nahi.
+// 4. Je dono possibilities fail ho jaan,
+//    ta false return karaange.
+// 5. Je kise ik possibility ch
+//    palindrome ban jaave,
+//    ta true return karaange.
+// 6. Je poori string bina mismatch de traverse ho jaave,
+//    ta string already palindrome hai.
+//    True return karaange.
+
+class Solution
+{
 public:
-    bool valid_palin(string s,int left,int ryt)
+
+    bool valid_palin(string s,int left,int right)
     {
-        while(left<ryt)
+        while(left<right)
         {
-            if(s[left]!=s[ryt])
+            if(s[left]!=s[right])
+            {
                 return false;
+            }
 
             left++;
-            ryt--;
-
+            right--;
         }
-            return true;
+
+        return true;
     }
 
-    bool validPalindrome(string s) {
-        int count=0;
+    bool validPalindrome(string s)
+    {
+        int left=0;
+        int right=s.size()-1;
 
-        int i=0;
-        int j=s.size()-1;
-
-        while(i<j)
+        while(left<right)
         {
-            if(s[i]==s[j])
+            if(s[left]==s[right])
             {
-                i++;
-                j--;
+                left++;
+                right--;
             }
             else
             {
-                if(valid_palin(s,i,j-1)==false && valid_palin(s,i+1,j)==false)
-                    return false;
-                else
-                    return true;
+                return valid_palin(s,left+1,right) ||
+                       valid_palin(s,left,right-1);
             }
         }
+
         return true;
     }
 };
