@@ -1,75 +1,77 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
-class Solution {
+// Approach
+// 1. Pehla dono linked lists nu reverse karaange,
+//    taaki addition least significant digit ton start ho sake.
+// 2. Ik carry variable maintain karaange.
+// 3. Dono reversed lists nu simultaneously traverse karaange.
+// 4. Har step te
+//    current digits te carry da sum calculate karaange.
+// 5. Sum da last digit
+//    answer linked list ch add karaange.
+// 6. Je sum 10 ya us ton vadda hove,
+//    ta carry = 1,
+//    nahi ta carry = 0.
+// 7. Eh process jadon tak
+//    dono lists te carry khatam na ho jaan,
+//    repeat karaange.
+// 8. Milia hoya answer reverse order ch hovega,
+//    is karke answer linked list nu dubara reverse karaange.
+// 9. Final reversed linked list return karaange.
+
+class Solution
+{
 public:
     ListNode* reverse(ListNode* head)
     {
         ListNode* prev=NULL;
         ListNode* temp=head;
 
-        while(temp)
+        while(temp!=NULL)
         {
-            ListNode* next_node=temp->next;
-            temp->next=prev;
-            prev=temp;
-            temp=next_node;
+            ListNode* nextNode=temp->next;
 
+            temp->next=prev;
+
+            prev=temp;
+
+            temp=nextNode;
         }
+
         return prev;
     }
-    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        
+
+    ListNode* addTwoNumbers(ListNode* l1,ListNode* l2)
+    {
         l1=reverse(l1);
         l2=reverse(l2);
 
-        int carry =0;
+        int carry=0;
 
-        ListNode* ans=new ListNode(-1);
-        ListNode* temp=ans;
-        while(carry || l1 || l2)
+        ListNode* dummy=new ListNode(-1);
+        ListNode* tail=dummy;
+
+        while(l1!=NULL || l2!=NULL || carry)
         {
-            int sum=0;
-            if(l1)
+            int sum=carry;
+
+            if(l1!=NULL)
             {
                 sum+=l1->val;
                 l1=l1->next;
             }
-            if(l2)
+
+            if(l2!=NULL)
             {
                 sum+=l2->val;
                 l2=l2->next;
             }
-            if(carry==1)
-            {
-                sum+=1;
-            }
 
-            if(sum>=10)
-            {
-                sum=sum%10;
-                carry=1;
-            }
-            else
-            {
-                carry=0;
-            }
+            carry=sum/10;
 
-            ListNode* new_node=new ListNode(sum);
-            temp->next=new_node;
-            temp=new_node;
+            tail->next=new ListNode(sum%10);
+
+            tail=tail->next;
         }
 
-        ans=reverse(ans->next);
-
-        return ans;
-
+        return reverse(dummy->next);
     }
 };
