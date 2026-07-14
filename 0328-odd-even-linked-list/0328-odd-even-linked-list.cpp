@@ -1,48 +1,51 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
-class Solution {
+// Approach
+// 1. Ik odd pointer te
+//    ik even pointer maintain karaange.
+// 2. Even list da head
+//    alag store karaange,
+//    taaki baad ch connect kar sakiye.
+// 3. Odd pointer nu
+//    agle odd node naal connect karaange.
+// 4. Even pointer nu
+//    agle even node naal connect karaange.
+// 5. Har iteration ch
+//    odd te even pointers nu
+//    agge move karaange.
+// 6. Jadon even list khatam ho jaave,
+//    ta odd list de end nu
+//    even list de head naal connect karaange.
+// 7. Original head hi
+//    required answer hovega.
+
+class Solution
+{
 public:
-    ListNode* oddEvenList(ListNode* head) {
+    ListNode* oddEvenList(ListNode* head)
+    {
         if(head==NULL || head->next==NULL)
-            return head;
-
-        ListNode* even=new ListNode(-1);
-        ListNode*  odd=new ListNode(-1);
-        ListNode* temp1=even;
-        ListNode* temp2=odd;
-
-        ListNode* temp=head;
-        int count=1;
-
-        while(temp)
         {
-            if(count%2==0)
-            {
-                ListNode* new_node=new ListNode(temp->val);
-                temp1->next=new_node;
-                temp1=new_node;
-            }
-            else
-            {
-                ListNode* new_node=new ListNode(temp->val);
-                temp2->next=new_node;
-                temp2=new_node;
-            }
-
-            count+=1;
-            temp=temp->next;
+            return head;
         }
 
-        temp2->next=even->next;
-        return odd->next;
+        ListNode* odd=head;
 
+        ListNode* even=head->next;
+
+        ListNode* evenHead=even;
+
+        while(even!=NULL && even->next!=NULL)
+        {
+            odd->next=even->next;
+
+            odd=odd->next;
+
+            even->next=odd->next;
+
+            even=even->next;
+        }
+
+        odd->next=evenHead;
+
+        return head;
     }
 };
