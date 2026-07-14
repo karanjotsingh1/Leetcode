@@ -1,52 +1,76 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
-class Solution {
+// Approach
+// 1. Slow te Fast pointers use karke
+//    linked list da middle node find karaange.
+// 2. Middle ton agge wali linked list
+//    reverse karaange.
+// 3. Middle node ton list nu
+//    do halves ch split karaange.
+// 4. Ik pointer first half te
+//    ik pointer reversed second half te rakhange.
+// 5. Dono halves de nodes nu
+//    alternate order ch connect karaange.
+// 6. Jadon second half khatam ho jaave,
+//    reordered linked list complete ho jaavegi.
+
+class Solution
+{
 public:
-    void reorderList(ListNode* head) {
-        if(head==NULL || head->next==NULL || head->next->next==NULL)
+
+    ListNode* reverse(ListNode* head)
+    {
+        ListNode* prev=NULL;
+        ListNode* current=head;
+
+        while(current!=NULL)
+        {
+            ListNode* nextNode=current->next;
+
+            current->next=prev;
+
+            prev=current;
+
+            current=nextNode;
+        }
+
+        return prev;
+    }
+
+    void reorderList(ListNode* head)
+    {
+        if(head==NULL || head->next==NULL)
         {
             return;
         }
 
-        ListNode* temp=head;
-        vector<int>arr;
-        while(temp)
+        // Find middle
+        ListNode* slow=head;
+        ListNode* fast=head;
+
+        while(fast->next!=NULL && fast->next->next!=NULL)
         {
-            arr.push_back(temp->val);
-            temp=temp->next;
+            slow=slow->next;
+            fast=fast->next->next;
         }
 
-        ListNode* ans=new ListNode(-2);
-        
-        int i=1;
-        int j=arr.size()-1;
-        temp=head;
-        while(i<j)
+        // Reverse second half
+        ListNode* secondHalf=reverse(slow->next);
+
+        // Split the list
+        slow->next=NULL;
+
+        ListNode* firstHalf=head;
+
+        // Merge alternately
+        while(secondHalf!=NULL)
         {
-            ListNode* new_node1=new ListNode(arr[j]);
-            temp->next=new_node1;
-            temp=temp->next;
-            ListNode* new_node=new ListNode(arr[i]);
-            temp->next=new_node;
-            temp=temp->next;
-            
-            i++;
-            j--;
+            ListNode* firstNext=firstHalf->next;
+            ListNode* secondNext=secondHalf->next;
+
+            firstHalf->next=secondHalf;
+            secondHalf->next=firstNext;
+
+            firstHalf=firstNext;
+            secondHalf=secondNext;
         }
-        if(i==j)
-        {
-            ListNode* new_node=new ListNode(arr[i]);
-            temp->next=new_node;
-        }
-        
-        return;
     }
 };
