@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1227-airplane-seat-assignment-probability](https://github.com/karanjotsingh1/Leetcode/tree/master/1227-airplane-seat-assignment-probability) |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/karanjotsingh1/Leetcode/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
+| [1922-count-good-numbers](https://github.com/karanjotsingh1/Leetcode/tree/master/1922-count-good-numbers) |
 | [2396-strictly-palindromic-number](https://github.com/karanjotsingh1/Leetcode/tree/master/2396-strictly-palindromic-number) |
 | [2965-find-missing-and-repeated-values](https://github.com/karanjotsingh1/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 ## Recursion
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0203-remove-linked-list-elements](https://github.com/karanjotsingh1/Leetcode/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [1922-count-good-numbers](https://github.com/karanjotsingh1/Leetcode/tree/master/1922-count-good-numbers) |
 ## Dynamic Programming
 |  |
 | ------- |
