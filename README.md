@@ -158,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/karanjotsingh1/Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/karanjotsingh1/Leetcode/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/karanjotsingh1/Leetcode/tree/master/0066-plus-one) |
+| [0224-basic-calculator](https://github.com/karanjotsingh1/Leetcode/tree/master/0224-basic-calculator) |
 | [0268-missing-number](https://github.com/karanjotsingh1/Leetcode/tree/master/0268-missing-number) |
 | [0319-bulb-switcher](https://github.com/karanjotsingh1/Leetcode/tree/master/0319-bulb-switcher) |
 | [0382-linked-list-random-node](https://github.com/karanjotsingh1/Leetcode/tree/master/0382-linked-list-random-node) |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0143-reorder-list) |
 | [0203-remove-linked-list-elements](https://github.com/karanjotsingh1/Leetcode/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0206-reverse-linked-list) |
+| [0224-basic-calculator](https://github.com/karanjotsingh1/Leetcode/tree/master/0224-basic-calculator) |
 | [0234-palindrome-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [1922-count-good-numbers](https://github.com/karanjotsingh1/Leetcode/tree/master/1922-count-good-numbers) |
 ## Dynamic Programming
@@ -319,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/karanjotsingh1/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/karanjotsingh1/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0173-binary-search-tree-iterator](https://github.com/karanjotsingh1/Leetcode/tree/master/0173-binary-search-tree-iterator) |
+| [0224-basic-calculator](https://github.com/karanjotsingh1/Leetcode/tree/master/0224-basic-calculator) |
 | [0225-implement-stack-using-queues](https://github.com/karanjotsingh1/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/karanjotsingh1/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/karanjotsingh1/Leetcode/tree/master/0445-add-two-numbers-ii) |
@@ -357,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/karanjotsingh1/Leetcode/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/karanjotsingh1/Leetcode/tree/master/0079-word-search) |
 | [0151-reverse-words-in-a-string](https://github.com/karanjotsingh1/Leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0224-basic-calculator](https://github.com/karanjotsingh1/Leetcode/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/karanjotsingh1/Leetcode/tree/master/0242-valid-anagram) |
 | [0345-reverse-vowels-of-a-string](https://github.com/karanjotsingh1/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/karanjotsingh1/Leetcode/tree/master/0392-is-subsequence) |
