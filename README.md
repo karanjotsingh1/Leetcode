@@ -359,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/karanjotsingh1/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/karanjotsingh1/Leetcode/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/karanjotsingh1/Leetcode/tree/master/0049-group-anagrams) |
+| [0058-length-of-last-word](https://github.com/karanjotsingh1/Leetcode/tree/master/0058-length-of-last-word) |
 | [0079-word-search](https://github.com/karanjotsingh1/Leetcode/tree/master/0079-word-search) |
 | [0151-reverse-words-in-a-string](https://github.com/karanjotsingh1/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0224-basic-calculator](https://github.com/karanjotsingh1/Leetcode/tree/master/0224-basic-calculator) |
