@@ -1,3 +1,5 @@
+
+
 // Approach
 // 1. Array nu sort karaange,
 //    taaki Two Pointer technique apply ho sake
@@ -29,9 +31,7 @@ public:
     vector<vector<int>> threeSum(vector<int>& nums)
     {
         sort(nums.begin(),nums.end());
-
         vector<vector<int>> ans;
-
         int n=nums.size();
 
         for(int i=0;i<n-2;i++)
