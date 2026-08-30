@@ -1,3 +1,5 @@
+
+
 // Approach
 // 1. Pehlaa check kraange je array empty aa ya sirf ik element aa,
 //    ta sidha size return kr devaange.
