@@ -1,3 +1,5 @@
+
+
 // Approach
 // 1. Do pointers use karaange:
 //    ptr1 nums1 de valid elements de end te,
