@@ -1,3 +1,5 @@
+
+
 // Approach
 // 1. Right to left traverse karke
 //    pehla aisa index (pivot) find karaange
