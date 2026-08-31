@@ -703,4 +703,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/karanjotsingh1/Leetcode/tree/master/0062-unique-paths) |
+## Algorithm X
+|  |
+| ------- |
+| [0051-n-queens](https://github.com/karanjotsingh1/Leetcode/tree/master/0051-n-queens) |
 <!---LeetCode Topics End-->
