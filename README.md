@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1833-maximum-ice-cream-bars](https://github.com/karanjotsingh1/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
 | [1865-finding-pairs-with-a-certain-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/1865-finding-pairs-with-a-certain-sum) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/karanjotsingh1/Leetcode/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2965-find-missing-and-repeated-values](https://github.com/karanjotsingh1/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 | [3875-construct-uniform-parity-array-i](https://github.com/karanjotsingh1/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/karanjotsingh1/Leetcode/tree/master/3898-find-the-degree-of-each-vertex) |
@@ -663,6 +664,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/karanjotsingh1/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [1013-partition-array-into-three-parts-with-equal-sum](https://github.com/karanjotsingh1/Leetcode/tree/master/1013-partition-array-into-three-parts-with-equal-sum) |
 | [1833-maximum-ice-cream-bars](https://github.com/karanjotsingh1/Leetcode/tree/master/1833-maximum-ice-cream-bars) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/karanjotsingh1/Leetcode/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [3974-maximum-total-sum-of-k-selected-elements](https://github.com/karanjotsingh1/Leetcode/tree/master/3974-maximum-total-sum-of-k-selected-elements) |
 ## Quickselect
 |  |
