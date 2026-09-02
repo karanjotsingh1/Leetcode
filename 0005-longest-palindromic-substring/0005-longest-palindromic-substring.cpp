@@ -25,7 +25,7 @@ public:
             int left=i;
             int right=i;
 
-            while(left>=0&&right<n&&s[left]==s[right])
+            while(left>=0 && right<n && s[left]==s[right])
             {
                 if(right-left+1>ans.size())
                 {
@@ -40,9 +40,9 @@ public:
             left=i;
             right=i+1;
 
-            while(left>=0&&right<n&&s[left]==s[right])
+            while(left>=0 && right<n && s[left]==s[right])
             {
-                if(right-left+1>ans.size())
+                if(right-left+1 > ans.size())
                 {
                     ans=s.substr(left,right-left+1);
                 }
