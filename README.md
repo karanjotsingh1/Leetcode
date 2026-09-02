@@ -184,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1922-count-good-numbers](https://github.com/karanjotsingh1/Leetcode/tree/master/1922-count-good-numbers) |
 | [2396-strictly-palindromic-number](https://github.com/karanjotsingh1/Leetcode/tree/master/2396-strictly-palindromic-number) |
 | [2965-find-missing-and-repeated-values](https://github.com/karanjotsingh1/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
+| [3622-check-divisibility-by-digit-sum-and-product](https://github.com/karanjotsingh1/Leetcode/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/karanjotsingh1/Leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3875-construct-uniform-parity-array-i](https://github.com/karanjotsingh1/Leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 ## Recursion
